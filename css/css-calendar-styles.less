@@ -1,0 +1,348 @@
+//  TODO:
+//
+//  DROP-SHADOW VERSION / SOFT
+//
+//  WEBFONT VERSION
+//
+
+.dah-wrapper {
+    margin: 25px auto;
+    border: #eee solid 1px;
+    width: 500px;
+    height: 250px;
+    -moz-box-shadow:0px 0px 4px #9f9f9f;
+    -webkit-box-shadow:0px 0px 4px #9f9f9f;
+    box-shadow:0px 0px 4px #9f9f9f;
+    padding: 50px;
+
+
+    .display-only {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+    @cal-color-red: #c40000;
+
+    div[class^='cal-container']{
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+
+        div[class^='cal-month']{
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+
+    }
+
+    .cal-container-red {
+        //background-color: #eee;
+        .cal-month {
+            background-color: @cal-color-red;
+
+        }
+        .cal-day {
+            border: @cal-color-red solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+
+        }
+    }
+
+
+
+    .rounded-cal-container-red {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-red;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+            border-radius: 3px 3px 0px 0px; 
+            -moz-border-radius: 3px 3px 0px 0px; 
+            -webkit-border-radius: 3px 3px 0px 0px;
+        }
+        .cal-day {
+            border: @cal-color-red solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+
+
+    .btm-rounded-cal-container-red {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-red;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+        .cal-day {
+            border: @cal-color-red solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+    @cal-color-green: #5bb75b;
+
+
+    .cal-container-green {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-green;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+        .cal-day {
+            border: @cal-color-green solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+
+        }
+    }
+
+
+
+    .rounded-cal-container-green {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-green;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+            border-radius: 3px 3px 0px 0px; 
+            -moz-border-radius: 3px 3px 0px 0px; 
+            -webkit-border-radius: 3px 3px 0px 0px;
+        }
+        .cal-day {
+            border: @cal-color-green solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+
+
+    .btm-rounded-cal-container-green {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-green;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+        .cal-day {
+            border: @cal-color-green solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+
+    @cal-color-blue: #006dcc;
+
+
+    .cal-container-blue {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-blue;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+        .cal-day {
+            border: @cal-color-blue solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+
+        }
+    }
+
+
+
+    .rounded-cal-container-blue {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-blue;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+            border-radius: 3px 3px 0px 0px; 
+            -moz-border-radius: 3px 3px 0px 0px; 
+            -webkit-border-radius: 3px 3px 0px 0px;
+        }
+        .cal-day {
+            border: @cal-color-blue solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+
+
+    .btm-rounded-cal-container-blue {
+        font-family: Arial,'Trebuchet MS','Helvetica Neue',Helvetica,sans-serif;
+        width: 32px;
+        //background-color: #eee;
+        border-top: #fff solid 1px;
+        padding: 2px;
+        margin: 0 auto;
+        .cal-month {
+            background-color: @cal-color-blue;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.6rem;
+            letter-spacing: 0.2em;
+            line-height: 14px;
+            padding: 0 4px;
+        }
+        .cal-day {
+            border: @cal-color-blue solid 1px;
+            background-color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            padding: 1px 4px 0 4px;
+            border-radius: 0px 0px 3px 3px; 
+            -moz-border-radius: 0px 0px 3px 3px; 
+            -webkit-border-radius: 0px 0px 3px 3px; 
+        }
+    }
+
+
+
+
+
+}
